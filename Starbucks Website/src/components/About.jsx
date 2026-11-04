@@ -2,7 +2,7 @@ import React from "react";
 import aboutImg from "../assets/about.jpg";
 const About = () => {
   return (
-    <section id="#about" className="py-20 bg-white px-5 md:px-28">
+    <section id="about" className="py-20 bg-white px-5 md:px-28">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 uppercase">
