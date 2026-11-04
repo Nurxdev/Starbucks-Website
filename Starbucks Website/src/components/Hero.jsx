@@ -3,7 +3,7 @@ import HeroBg from "../assets/hero.png";
 const Hero = () => {
   return (
     <section
-      id="#home"
+      id="home"
       className="min-h-screen bg-gradient-to-br from bg-green-50 to-green-100 flex justify-center items-center px-5 md:px-28"
     >
       <div className="container mx-auto w-full sm:pt-0 pt-32">
