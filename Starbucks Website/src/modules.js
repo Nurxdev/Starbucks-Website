@@ -49,3 +49,63 @@ export const menuItems = [
     category: "Hot Coffe",
   },
 ];
+
+
+import product1 from "./assets/product-1.jpg";
+import product2 from "./assets/product-2.jpg";
+import product3 from "./assets/product-3.jpg";
+import product4 from "./assets/product-4.jpg";
+
+export const products = [
+  {
+    name: "Pike Place Roast",
+    img: product1,
+    price: "$14.95",
+    type: "Medium Roast",
+    description: "Smooth and balanced",
+  },
+  {
+    name: "Pike Place Roast",
+    img: product2,
+    price: "$14.95",
+    type: "Medium Roast",
+    description: "Smooth and balanced",
+  },
+  {
+    name: "Pike Place Roast",
+    img: product3,
+    price: "$14.95",
+    type: "Medium Roast",
+    description: "Smooth and balanced",
+  },
+    {
+    name: "Pike Place Roast",
+    img: product4,
+    price: "$14.95",
+    type: "Medium Roast",
+    description: "Smooth and balanced",
+  },
+];
+
+
+export const reviews = [
+  {
+    name:"Sara Johnson",
+    rating: 5,
+    comment: "Best coffee in town.The atomosphere is amazing and the baristas are so friendly.",
+    date: "Oct 2025"
+  },
+  {
+    name:"Sara Johnson",
+    rating: 5,
+    comment: "Best coffee in town.The atomosphere is amazing and the baristas are so friendly.",
+    date: "Oct 2025"
+  },
+  {
+    name:"Sara Johnson",
+    rating: 5,
+    comment: "Best coffee in town.The atomosphere is amazing and the baristas are so friendly.",
+    date: "Oct 2025"
+  },
+  
+]
