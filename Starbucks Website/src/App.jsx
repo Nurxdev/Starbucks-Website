@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Product from "./components/Product";
 import Review from "./components/Review";
+import Blog from "./components/Blog";
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
       <Menu />
       <Product/>
       <Review/>
+      <Blog />
     </>
   );
 };
