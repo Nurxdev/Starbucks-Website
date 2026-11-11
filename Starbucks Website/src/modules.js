@@ -109,3 +109,32 @@ export const reviews = [
   },
   
 ]
+
+
+
+import blog1 from "./assets/blog-1.jpg";
+import blog2 from "./assets/blog-2.jpg";
+import blog3 from "./assets/blog-3.jpg";
+export const blogs = [
+  {
+    title: "The Art of Coffee Brewing",
+    date: "October 5, 2025",
+    excerpt:
+      "Discover the perfect techique for brewing your favorite cup at home",
+    img: blog1,
+  },
+  {
+    title: "The Art of Coffee Brewing",
+    date: "October 5, 2025",
+    excerpt:
+      "Discover the perfect techique for brewing your favorite cup at home",
+    img: blog2,
+  },
+  {
+    title: "The Art of Coffee Brewing",
+    date: "October 5, 2025",
+    excerpt:
+      "Discover the perfect techique for brewing your favorite cup at home",
+    img: blog3,
+  },
+];
