@@ -23,7 +23,7 @@ const Review = () => {
             <div key={index} className="bg-white p-8 rounded-3xl shadow-lg ">
               <div className="flex mb-4">
                 {[...Array(review.rating)].map((_, i) => (
-                  <Star className="w-5 h-5 text-yellow-400 fill-current" />
+                  <Star className="w-5 h-5 text-yellow-400 fill-current"  key={i}/>
                 ))}
               </div>
               <p className="text-gray-600 text-lg mb-6 leading-relaxed">
